@@ -5,6 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mainprogram", "mainprogram\mainprogram.vcxproj", "{DC30EA7D-965D-49FB-BA77-07775D187854}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{E48DFD68-A038-426D-9391-A4F022256FB8}"
+	ProjectSection(SolutionItems) = preProject
+		..\source\x64\Debug\source.dll = ..\source\x64\Debug\source.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
